@@ -579,60 +579,6 @@ header.sticky .menu--1 svg path{
     color: var(--black);
 }
 
-/* myImage Section */
-.myImage{
-    height: 500px;
-    max-width: 400px;
-    width: 100%;
-    overflow: hidden;
-    border: 2px solid var(--lightGreen);
-    border-radius: 25px;
-    margin-top: 50px;
-    position: relative;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-}
-
-.myImage img{
-    margin-top: 11px;
-    height: 100%;
-}
-
-.myImage .bg{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    -webkit-animation: changeColor 5s linear infinite;
-            animation: changeColor 5s linear infinite;
-    -webkit-animation-direction: alternate;
-            animation-direction: alternate;
-}
-
-@-webkit-keyframes changeColor {
-    from{
-        background: transparent;
-    }
-    to{
-        background: var(--lightGreen);
-    }
-}
-
-@keyframes changeColor {
-    from{
-        background: transparent;
-    }
-    to{
-        background: var(--lightGreen);
-    }
-}
-
 
 
 
@@ -642,7 +588,7 @@ header.sticky .menu--1 svg path{
 .svg-container {
     width: 420px;
     height: 550px;
-  }
+}
   
   
   .moving-border {
@@ -664,8 +610,6 @@ header.sticky .menu--1 svg path{
         stroke-dashoffset: -40;
     }
   }
-
-
 
 
 .actionBtn{
