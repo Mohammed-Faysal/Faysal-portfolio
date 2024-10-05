@@ -2,11 +2,17 @@ const body = document.body;
 const navbarMenu = document.getElementById('navbarMenu');
 const skills = document.querySelector('.skills')
 const skillPer = document.querySelectorAll('.skill-per')
-
 const tabs = document.querySelectorAll('.nav-links ul li')
-
-
 var header = document.querySelector('header')
+
+
+// Loader
+window.addEventListener('load', function() {
+    const loader = document.querySelector('.loader');
+    loader.style.display = 'none';
+});
+
+
 
 window.addEventListener('scroll', function(){
     header.classList.toggle("sticky", window.scrollY > 0)
