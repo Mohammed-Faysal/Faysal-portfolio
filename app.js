@@ -8,7 +8,7 @@ var header = document.querySelector('header')
 
 // Loader
 window.addEventListener('load', function() {
-    const loader = document.querySelector('.loader');
+    const loader = document.querySelector('.loaderContainer');
     loader.style.display = 'none';
 });
 
