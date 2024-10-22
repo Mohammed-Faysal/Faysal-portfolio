@@ -1922,11 +1922,11 @@ form .inputField{
     --grid: 5vmin;
     background: #1d202d;
     z-index: 10000000;
-    overflow: hidden;
+    overflow: hidden !important;
 }
 
 .loaderContainer::-webkit-scrollbar{
-    width: 0;
+    width: 0 !important;
 }
 
 .loader {
