@@ -1,0 +1,4 @@
+1. SVG hamburger, 
+2. Mobile navbar will be white color, height will be full, 
+3. Portfolio section will be modified, 
+4. remove the border radius of the loader box.
