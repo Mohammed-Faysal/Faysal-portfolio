@@ -5,11 +5,16 @@ const skillPer = document.querySelectorAll('.skill-per')
 const tabs = document.querySelectorAll('.nav-links ul li')
 var header = document.querySelector('header')
 
+// Disable scrollbar on page load
+document.body.classList.add('no-scroll');
 
 // Loader
 window.addEventListener('load', function() {
     const loader = document.querySelector('.loaderContainer');
     loader.style.display = 'none';
+
+    // Re-enable scrollbar
+    document.body.classList.remove('no-scroll');
 });
 
 
